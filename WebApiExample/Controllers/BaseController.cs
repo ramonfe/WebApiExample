@@ -10,6 +10,7 @@ namespace WebApiExample.Controllers
 {
     public class BaseController : ApiController
     {
+        public string error = "";
         public bool Verify(string token)
         {
             using (mydbEntities db = new mydbEntities())
