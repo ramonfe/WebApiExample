@@ -18,5 +18,6 @@ namespace WebApiExample.Models
         public string name { get; set; }
         public Nullable<int> idState { get; set; }
         public Nullable<int> patas { get; set; }
+        public byte[] picture { get; set; }
     }
 }
